@@ -2,3 +2,30 @@
 .navbar-dark, .quarto-title-banner {
   background-color: #006DAE;
 }
+body {
+  background-color: #f8f9fa; /* light gray for readability */
+  color: #212529;            /* dark text */
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  line-height: 1.65;
+}
+
+h1, h2, h3 {
+  color: #007bff; /* blue headings accent */
+  font-weight: 700;
+
+.site-navbar {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e9ecef;
+
+pre, code {
+  background: #0f1720; 
+  color: #e6eef8;      
+  border-radius: 6px;
+  padding: 0.35rem;
+}
+
+a.btn {
+  border-radius: 6px;
+  padding: 0.45rem 0.8rem;
+  box-shadow: 0 1px 2px rgba(3, 7, 18, 0.06);
+}
