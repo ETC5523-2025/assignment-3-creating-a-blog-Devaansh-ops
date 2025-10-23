@@ -6,10 +6,18 @@ website:
   title: "My Data Communication Portfolio"
   navbar:
     background: primary
+   left:
+      - text: "Home"
+        href: index.qmd
+      - text: "About"
+        href: about.qmd
+      - text: "Blog"
+        href: Blog.qmd
     right:
       - icon: github
         href: https://github.com/ETC5523-2025/assignment-3-creating-a-blog-Devaansh-ops
         text: GitHub
+
 theme:
     - cosmo
     - css/styles.scss
