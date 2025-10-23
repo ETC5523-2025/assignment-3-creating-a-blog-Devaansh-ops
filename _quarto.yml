@@ -6,7 +6,7 @@ website:
   title: "My Data Communication Portfolio"
   navbar:
     background: primary
-   left:
+    left:
       - text: "Home"
         href: index.qmd
       - text: "About"
@@ -19,5 +19,5 @@ website:
         text: GitHub
 
 theme:
-    - cosmo
-    - css/styles.scss
+  - cosmo
+  - css/styles.scss

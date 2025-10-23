@@ -15,6 +15,20 @@ about:
       href: mailto:dgup0007@student.monash.edu
 ---
 
-Hello! I'm a 22-year-old student who is enthusiastic in finding narratives in data.  
-I'm investigating how statistics may explain and sometimes even predict real-world occurrences as I work for my **Master of Business Analytics**.
-You can find me **writing, singing, playing badminton**, or going on **a trek** to refuel when I'm not buried in datasets. In my opinion, the importance of imagination and curiosity in analysis is equal to that of logic and accuracy.
+I'm a 22-year-old data enthusiast who is determined to find the narratives concealed in statistics. As I work toward my Master's of Business Analytics, I find it fascinating how statistical analysis can be used to both explain and forecast the future. I take a holistic approach to data science, seeing creativity and curiosity as equally important as accuracy and reasoning. Asking not just "what does the data say?" but "what story is it trying to tell?" combines creative thinking with rigorous methodology to produce the best insights. I'm a complex person who enjoys a variety of experiences outside of the realm of datasets and algorithms. You'll find me:
+
+-   ✍️ **Writing** — crafting narratives that make complex data accessible
+
+<!-- -->
+
+-   🎤 **Singing** — finding rhythm and patterns in music, much like in data
+
+<!-- -->
+
+-   🏸 **Playing badminton** — where strategy meets quick decision-making
+
+<!-- -->
+
+-   🥾 **Trekking** — exploring nature's own data patterns and finding inspiration in the outdoors
+
+These interests are more than just pastimes; they help me with my analytical work. I apply the same enthusiasm and curiosity that motivate me in all facets of my life, whether I'm examining consumer behavior or evaluating climate data. Data analytics, in my opinion, is about comprehending human experiences, environmental trends, and the complex systems that make up our world, not just about calculating numbers.
