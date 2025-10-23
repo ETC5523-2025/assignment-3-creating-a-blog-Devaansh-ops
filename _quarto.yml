@@ -1,15 +1,15 @@
 project:
   type: website
-  output-dir: docs  
+  output-dir: docs
+
 website:
-  title: "My Data Communication Portfolio" 
+  title: "My Data Communication Portfolio"
   navbar:
+    background: primary
     right:
       - icon: github
-        href:  https://github.com/ETC5523-2025/assignment-3-creating-a-blog-Devaansh-ops 
+        href: https://github.com/ETC5523-2025/assignment-3-creating-a-blog-Devaansh-ops
         text: GitHub
-  theme: 
-    - cosmo  
-    - css/styles.scss   
-
-
+theme:
+    - cosmo
+    - css/styles.scss

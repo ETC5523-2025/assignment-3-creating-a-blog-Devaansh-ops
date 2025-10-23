@@ -1,13 +1,20 @@
 ---
-title: "About"
-image: profile.jpg
+title: "Devaansh Sunil Kumar Gupta"
+image: Images/myself.jpeg
 about:
   template: jolla
   links:
     - icon: github
       text: Github
       href: https://github.com/etc5523-2022
-
+    - icon: instagram
+      text: Instagram
+      href: https://www.instagram.com/devaansh_1102
+    - icon: envelope  
+      text: Email
+      href: mailto:dgup0007@student.monash.edu
 ---
 
-This is a blog template for the ETC5523 Communicating with Data assessment at Monash University.
+Hello! I'm a 22-year-old student who is enthusiastic in finding narratives in data.  
+I'm investigating how statistics may explain and sometimes even predict real-world occurrences as I work for my **Master of Business Analytics**.
+You can find me **writing, singing, playing badminton**, or going on **a trek** to refuel when I'm not buried in datasets. In my opinion, the importance of imagination and curiosity in analysis is equal to that of logic and accuracy.
