@@ -21,15 +21,15 @@ Researchers used event attribution science, which compares the actual climate (w
 
 The core metric? An indicator of the physical conditions that are favorable for fire initiation and spread is the Fire Weather Index (FWI). FWI values for the 2019–2020 season were extremely high, with a return period of more than 1,000 years in a pre-industrial setting. However, the study discovered that these conditions are at least 30% more likely to occur in our warmed world, with models predicting a 4–8 fold increase under 2°C of global warming. Temperature extremes are primarily to blame for this increase: 7-day maximums (TX7x) were 1-2°C warmer than in 1900, making anthropogenic factors at least twice as likely to cause such heatwaves.
 
-However, drought presents a different picture; despite a slight drying trend in annual data, there is no obvious human signal in extremely low rainfall. Natural variability, such as record-strong Southern Annular Mode (SAM) and Indian Ocean Dipole (IOD) events, was responsible for more than half of the 2019–2020 drought.\
-\
-Let's see how these fires are being fueled by the heat trend. Figure 1 illustrates the upward trajectory by simulating temperature anomalies over time:
+However, drought presents a different picture; despite a slight drying trend in annual data, there is no obvious human signal in extremely low rainfall. Natural variability, such as record-strong Southern Annular Mode (SAM) and Indian Ocean Dipole (IOD) events, was responsible for more than half of the 2019–2020 drought.
+
+Let's see how these fires are being fueled by the heat trend. @fig-temp-trend illustrates the upward trajectory by simulating temperature.
 
 ```{r}
 #| warning: false
 #| message: false
 #| echo: false  
-#| fig-cap: "Figure 1: Simulated temperature anomalies in southeastern Australia (1900–2020), showing a clear warming trend amid natural variability."
+#| fig-cap: "Simulated temperature anomalies in southeastern Australia (1900–2020), showing a clear warming trend amid natural variability."
 #| label: fig-temp-trend
 #| fig-width: 8
 #| fig-height: 5
@@ -55,13 +55,30 @@ ggplot(data, aes(x = Year, y = Temp)) +
   )
 ```
 
-*Table 1: Model-ensemble probability ratios for extreme fire weather conditions.*
+As shown in @tbl-fire-risk makes it clear that risks are already high (average increase of \~80%); however, models may be conservative, overestimating variability and underestimating observed temperature trends. This relates directly to our main query: Indeed, by increasing the likelihood of fire-prone conditions, climate change exacerbated the Black Summer, transforming a poor year into a biblical conflagration.
 
-Table 1 makes it clear that risks are already high (average increase of \~80%); however, models may be conservative, overestimating variability and underestimating observed temperature trends. This relates directly to our main query: Indeed, by increasing the likelihood of fire-prone conditions, climate change exacerbated the Black Summer, transforming a poor year into a biblical conflagration.
+```{r}
+#| echo: false
+#| label: tbl-fire-risk
+#| tbl-cap: "Model-ensemble probability ratios for extreme fire weather conditions"
+library(knitr)
 
-To bring the devastation home, here's a satellite view in Figure 2:
+fire_risk_data <- data.frame(
+  Climate_Scenario = c("Pre-industrial baseline", 
+                       "Current climate (1°C warming)", 
+                       "2°C global warming"),
+  Probability_Ratio = c("1.0x", "1.3-1.8x", "4-8x"),
+  Risk_Increase = c("Baseline", "30-80% increase", "300-700% increase")
+)
 
-![Figure 2: MODIS satellite imagery of the bushfires, with red highlighting severe fire activity from October 2019 to January 2020.](Images/bushfire.jpg){alt="Figure 2: MODIS satellite imagery of the bushfires, with red highlighting severe fire activity from October 2019 to January 2020."}
+knitr::kable(fire_risk_data, 
+             col.names = c("Climate Scenario", "Probability Ratio", "Risk Increase"),
+             align = c('l', 'c', 'c'))
+```
+
+To bring the devastation home, @fig-bushfire shows a satellite view of the devastation:
+
+![MODIS satellite imagery showing severe fire activity from October 2019 to January 2020](Images/bushfire.jpg){#fig-bushfire}
 
 Figure 2 captures the scale—vast swaths of forest reduced to ash, underscoring the human and ecological toll.
 
